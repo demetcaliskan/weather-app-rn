@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import WelcomeScreen from './src/screens/WelcomeScreen'
 import WeatherShowScreen from './src/screens/WeatherShowScreen'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 const Stack = createNativeStackNavigator()
 
